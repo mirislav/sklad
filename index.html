@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklad</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Správa skladových zásob</h1>
+    <ul id="produkt-list"></ul>
+
+    <button id="nejdrazsi" onclick="najitNejdrazsiProdukt()">Najít nejdražší produkt</button>
+    <label>Filtrovat produkty podle množství: <input type="number" id="mnozstvi-filtr" /></label>
+    <p>
+        <button id="mnozstvi" onclick="filtrujPodleMnozstvi()">Vyhledat produkt</button>
+    </p>
+    <p></p>
+    <p>
+        <button id="hodnota" onClick="spocitatCelkovouHodnotuZasob()">Vypočítat cenu zásob</button>
+    </p>
+    <h2>Celková hodnota zásob: <span id="celkova-hodnota"></span> Kč</h2>
+</body>
+</html>

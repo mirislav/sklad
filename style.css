@@ -1,0 +1,41 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url('https://images6.alphacoders.com/376/376033.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+button {
+    background-color: #4c84af;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; 
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
